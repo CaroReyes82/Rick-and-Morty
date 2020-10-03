@@ -12,11 +12,11 @@ export default class DetallesPersonajes extends Personaje {
     this.episode = episode;
 
     let _name = name;
-    this_getName = () => {
+    this._getName = () => {
       return _name;
     };
     let _status = status;
-    this_getStatus = () => {
+    this._getStatus = () => {
       return _status;
     };
   }
